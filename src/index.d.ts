@@ -1,0 +1,1 @@
+export function getDateDifference (string: start, end = new Date(), options = {}): string {}

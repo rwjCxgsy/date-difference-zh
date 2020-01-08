@@ -1,0 +1,13 @@
+{
+  "name": "date-difference-zh",
+  "version": "1.0.1",
+  "main": "src/index.js",
+  "license": "MIT",
+  "repository": "https://github.com/cxgsy/date-difference-zh",
+  "keywords": [
+    "date difference",
+    "时间差",
+    "两个时间点的差",
+    "一个时间距离另一个时间的距离"
+  ]
+}
