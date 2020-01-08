@@ -1,9 +1,9 @@
 {
   "name": "date-difference-zh",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/index.js",
   "license": "MIT",
-  "repository": "https://github.com/cxgsy/date-difference-zh",
+  "repository": "https://github.com/rwjCxgsy/date-difference-zh",
   "keywords": [
     "date difference",
     "时间差",
