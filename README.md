@@ -12,7 +12,7 @@
 ```javascript
 import dateDiff from 'date-difference-zh'
 
-dateDiff('2001-11-11 12:23:45', '2009-01-12')
+dateDiff('2001-11-11 12:23:45', '2009-01-12 12:23:45')
 // 7年2月1日
 
 dateDiff('2001-11-11 12:23:45', '2009-01-12 12:23:44')
