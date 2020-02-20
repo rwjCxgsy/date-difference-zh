@@ -9,6 +9,11 @@ export function getMonthLeftDay(year, month, day) {
     return monthes[month] - day
 }
 
+
+function isObject (obj) {
+    return Object.prototype.toString.call(obj).slice(8, -1) === 'Object'
+}
+
 /**
  *
  *
@@ -18,7 +23,7 @@ export function getMonthLeftDay(year, month, day) {
  * @param {*} [options={}] // 可选配置参数
  */
 export function getDateDifference(start, end = new Date(), options = {}) {
-    if (typeof end === 'object' ) {
+    if (isObject(end)) {
         options = end
         end = new Date()
     }
